@@ -1,12 +1,11 @@
-# Zebar Configuration: Rosepine Dawn Colorscheme
+# Zebar Theme: Ayu Mirage
 
-This repository contains configuration files for **Zebar** with a pre-configured Rosepine Dawn colorscheme. With this setup, you can enjoy a sleek and aesthetically pleasing terminal experience.
+This is a theme for Zebar based on the Ayu Mirage colorscheme.
 
 ## Installation
 
 1. Clone this repository into your `.glzr/zebar` directory:
 
    ```bash
-   git clone https://github.com/l4cloud/zebar-rosepine-dawn ~/.glzr/zebar
-
-# zebar_ayu_mirage
+   git clone <repository-url> ~/.glzr/zebar/ayu_mirage
+   ```

@@ -41,7 +41,9 @@ body,
 
 .app {
   display: grid;
-  background-color: #1F2430;
+  background-color: rgba(31, 36, 48, 0.7);
+  backdrop-filter: blur(50px);
+  -webkit-backdrop-filter: blur(50px);
   border-radius: 10%;
   grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
@@ -93,19 +95,19 @@ body,
   margin-right: 6px;
   padding:1px 4px;
 
-  color: #CBCCC6;
+  color: #cbccc6;
   border: none;
   border-radius: 50%;
   cursor: pointer;
 
   &.displayed {
-    color:#BAE67E;
+    color:#bae67e;
     font-weight: bold;
   }
 
   &.focused,
   &:hover {
-        color:#BAE67E;
+        color:#ffd580;
   }
 }
 
